@@ -1,0 +1,107 @@
+.navigation {
+  /* Layout Properties */
+
+  top: 0px;
+  left: 0px;
+  width: 1400px;
+  height: 72px;
+
+  /* UI Properties */
+
+  background: #1c1c1c 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.firstPage {
+  top: 72px;
+  left: 0px;
+  width: 1400px;
+  height: 639px;
+  background-image: url(./assets/cityview2.png);
+  image-resolution: auto;
+  /* background: #1c1c1c 0% 0% no-repeat padding-box; */
+  opacity: 0.63;
+}
+.socMedia {
+  top: 711px;
+  left: 0px;
+  width: 1400px;
+  height: 105px;
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 3px #00000061;
+  opacity: 1;
+}
+.softTransitionTab {
+  top: 816px;
+  left: 0px;
+  width: 1400px;
+  height: 595px;
+
+  /* UI Properties */
+
+  background: transparent linear-gradient(270deg, #6696e2 0%, #e27866 100%) 0%
+    0% no-repeat padding-box;
+  opacity: 0.42;
+}
+.eratTempor {
+  top: 1411px;
+  left: 0px;
+  width: 1400px;
+  height: 596px;
+
+  background: #1c1c1c 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.whyAwesome {
+  /* Layout Properties */
+
+  top: 2007px;
+  left: 0px;
+  width: 1400px;
+  height: 592px;
+
+  /* UI Properties */
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.pricingTab {
+  top: 2599px;
+  left: 0px;
+  width: 1400px;
+  height: 883px;
+
+  background: #6696e2 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.reviews {
+  top: 3482px;
+  left: 0px;
+  width: 1400px;
+  height: 591px;
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.contacts {
+  top: 4073px;
+  left: 0px;
+  width: 1400px;
+  height: 573px;
+
+  background: #e27866 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+footer {
+  /* Layout Properties */
+
+  top: 4646px;
+  left: 0px;
+  width: 1400px;
+  height: 124px;
+
+  /* UI Properties */
+
+  background: #1c1c1c 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
