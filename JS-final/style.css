@@ -1,11 +1,41 @@
 body {
   width: 1400px;
 }
-
+main {
+  left: 147px;
+}
 .navig {
   background: #1c1c1c 0% 0% no-repeat padding-box;
   opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 167px;
 }
+/* .navMenu {
+  display: block;
+} */
+ul {
+  list-style-type: none;
+}
+nav li {
+  float: right;
+  padding-right: 10px;
+  color: white;
+  text-decoration: none;
+}
+/* ul li:after {
+  content: "";
+  position: absolute;
+  background-color: #e27866;
+  height: 2px;
+  width: 0;
+  left: 0;
+  top: 55px;
+}
+ul li:hover:after {
+  width: 100px;
+} */
 nav .navLogo {
   background-image: url(./assets/cheshire-county-hygiene-services.svg);
   top: 10px;
@@ -18,13 +48,12 @@ nav .navLogo {
   padding-bottom: 10px;
   margin-top: 10px;
 }
-.firstPage {
+.features {
   top: 72px;
   left: 0px;
   width: 1400px;
   height: 639px;
   background-image: url(./assets/cityview2.png);
-  image-resolution: auto;
   /* background: #1c1c1c 0% 0% no-repeat padding-box; */
   opacity: 0.63;
 }
@@ -38,7 +67,7 @@ nav .navLogo {
   box-shadow: 0px 1px 3px #00000061;
   opacity: 1;
 }
-.softTransitionTab {
+.about {
   top: 816px;
   left: 0px;
   width: 1400px;
