@@ -1,15 +1,22 @@
-.navigation {
-  /* Layout Properties */
-
-  top: 0px;
-  left: 0px;
+body {
   width: 1400px;
-  height: 72px;
+}
 
-  /* UI Properties */
-
+.navig {
   background: #1c1c1c 0% 0% no-repeat padding-box;
   opacity: 1;
+}
+nav .navLogo {
+  background-image: url(./assets/cheshire-county-hygiene-services.svg);
+  top: 10px;
+  left: 147px;
+  width: 119px;
+  height: 52px;
+  /* padding: 35px 0 30px px; */
+  background-repeat: no-repeat;
+  margin-left: 147px;
+  padding-bottom: 10px;
+  margin-top: 10px;
 }
 .firstPage {
   top: 72px;
