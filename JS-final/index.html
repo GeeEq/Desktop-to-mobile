@@ -44,11 +44,12 @@
         <div class="descriptionBlock">
           <div class="description">
             <img
+              class="featuresLogo"
               src="./assets/cheshire-county-hygiene-services.svg"
               alt="cheshire-county-hygiene-services"
             />
             <h2>Explained propriety of out perpetual to you</h2>
-            <hr />
+            <hr class="line" />
             <p>
               Insipidity the sufficient discretion imprudence resolution sir him
               decisively. Proceed how any engaged visitor. Explained propriety
@@ -56,17 +57,48 @@
               so entreaties cultivated astonished is.
             </p>
 
-            <button>DOWNLOAD</button>
+            <button class="btn">DOWNLOAD</button>
           </div>
         </div>
         <div class="jsForm">
-          <form>
-            <label for="firstName">First Name:</label><br />
-            <input type="text" id="firstName" name="firstName" /><br />
-            <label for="lastName">Last Name:</label><br />
-            <input type="lastName" id="lastName" name="lastName" />
-            <label for="phoneNumber">Phone Number:</label><br />
-            <input type="phoneNumber" id="phoneNumber" name="phoneNumber" />
+          <form class="details">
+            <h2 class="greyTop">Try Your <span>FREE</span> Trial Today</h2>
+            <h3 class="yourDeatil formAlign">Your Details</h3>
+            <label for="firstName" class="formAlign"></label><br />
+            <input
+              type="text"
+              id="firstName"
+              class="formAlign"
+              name="firstName"
+              placeholder="First Name:"
+            />
+            <label for="lastName" class="formAlign"></label><br />
+            <input
+              type="lastName"
+              id="lastName"
+              class="formAlign"
+              name="lastName"
+              placeholder="Last Name:"
+            />
+            <label for="phoneNumber" class="formAlign"></label><br />
+            <input
+              type="phoneNumber"
+              id="phoneNumber"
+              class="formAlign"
+              name="phoneNumber"
+              placeholder="Phone Number:"
+            />
+            <h3 class="typeOfSubscribtion">Type Of Subscribtion</h3>
+            <form class="radioPush">
+              <input type="radio" id="monthly" name="monthly" value="monthly" />
+              <label for="html">MONTHLY</label><br />
+              <input type="radio" id="yearly" name="yearly" value="yearly" />
+              <label for="css">YEARLY</label><br />
+            </form>
+            <form>
+              <input type="submit" class="getStarted" value="GET STARTED" />
+            </form>
+            <!-- <h3 class="getStarted">GET STARTED</h3> -->
           </form>
         </div>
       </div>
