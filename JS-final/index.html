@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width= <device-width>, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>JavaScript exam</title>
   </head>
   <body>
@@ -11,22 +17,66 @@
       <nav class="navig">
         <div class="navLogo"></div>
         //
-        <ul class="navMenu">
-          <li>Features</li>
-          <li>About</li>
-          <li>Pricing</li>
-          <li>Reviews</li>
-          <li>Contacts</li>
-        </ul>
+        <div class="navMenu">
+          <ul class="nav_menu" id="nav_menu">
+            <li>
+              <a href="#features" id="nav_link">Features</a>
+            </li>
+            <li>
+              <a href="#about" id="nav_link">About</a>
+            </li>
+            <li>
+              <a href="#pricing" id="nav_link">Pricing</a>
+            </li>
+            <li>
+              <a href="#reviews" id="nav_link">Reviews</a>
+            </li>
+            <li>
+              <a href="#contacts" id="nav_link">Contacts</a>
+            </li>
+          </ul>
+        </div>
+        <!-- <div class="burgerMenu" id="burgerMenu">
+          <i class="ri-menu-line"></i>
+        </div> -->
       </nav>
-      <div class="features"></div>
+      <div class="features" id="features">
+        <div class="descriptionBlock">
+          <div class="description">
+            <img
+              src="./assets/cheshire-county-hygiene-services.svg"
+              alt="cheshire-county-hygiene-services"
+            />
+            <h2>Explained propriety of out perpetual to you</h2>
+            <hr />
+            <p>
+              Insipidity the sufficient discretion imprudence resolution sir him
+              decisively. Proceed how any engaged visitor. Explained propriety
+              of out perpetual his you. Feel sold off felt nay rose met you. We
+              so entreaties cultivated astonished is.
+            </p>
+
+            <button>DOWNLOAD</button>
+          </div>
+        </div>
+        <div class="jsForm">
+          <form>
+            <label for="firstName">First Name:</label><br />
+            <input type="text" id="firstName" name="firstName" /><br />
+            <label for="lastName">Last Name:</label><br />
+            <input type="lastName" id="lastName" name="lastName" />
+            <label for="phoneNumber">Phone Number:</label><br />
+            <input type="phoneNumber" id="phoneNumber" name="phoneNumber" />
+          </form>
+        </div>
+      </div>
       <div class="socMedia"></div>
-      <div class="about"></div>
+      <div class="about" id="about"></div>
       <div class="eratTempor"></div>
       <div class="whyAwesome"></div>
-      <div class="pricing"></div>
-      <div class="reviews"></div>
-      <div class="contacts"></div>
+      <div class="pricing" id="pricing"></div>
+      <div class="reviews" id="reviews"></div>
+      <div class="contacts" id="contacts"></div>
     </main>
     <footer></footer>
     <script src="./script.js"></script>

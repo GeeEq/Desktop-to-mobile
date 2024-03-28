@@ -1,7 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 body {
   width: 1400px;
 }
-main {
+body {
   left: 147px;
 }
 .navig {
@@ -10,20 +11,39 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-right: 167px;
+  padding-right: 50px;
 }
 /* .navMenu {
   display: block;
 } */
-ul {
+/* ul {
   list-style-type: none;
-}
-nav li {
+} */
+.nav_menu {
   float: right;
-  padding-right: 10px;
+  gap: 20px;
+  font-size: 18px;
+  color: white;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.nav_menu a {
   color: white;
   text-decoration: none;
+  letter-spacing: 0px;
 }
+.nav_menu a:hover {
+  border-bottom: #e27866;
+  size: 33px;
+}
+/* *:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+
 /* ul li:after {
   content: "";
   position: absolute;
@@ -41,7 +61,7 @@ nav .navLogo {
   top: 10px;
   left: 147px;
   width: 119px;
-  height: 52px;
+  height: 60px;
   /* padding: 35px 0 30px px; */
   background-repeat: no-repeat;
   margin-left: 147px;
@@ -49,13 +69,46 @@ nav .navLogo {
   margin-top: 10px;
 }
 .features {
-  top: 72px;
+  /* top: 72px; */
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 90px;
   left: 0px;
   width: 1400px;
   height: 639px;
+  background-size: cover;
+  background-color: rgba(28, 28, 28, 1);
+  background-repeat: no-repeat;
+}
+.features::before {
+  content: "";
   background-image: url(./assets/cityview2.png);
-  /* background: #1c1c1c 0% 0% no-repeat padding-box; */
+  background-repeat: no-repeat;
+  background-position: center;
   opacity: 0.63;
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  width: 1400px;
+  height: 639px;
+  opacity: 0.59;
+}
+.descriptionBlock {
+  position: relative;
+}
+.description h2 {
+  /* top: 268px; */
+  left: 147px;
+  /* width: 426px;
+  height: 87px; */
+  color: white;
+  text-align: left;
+  font: normal normal 600 36px/43px Montserrat;
+  letter-spacing: 0px;
+  color: rgba(255, 255, 255, 1);
+  opacity: 1;
 }
 .socMedia {
   top: 711px;
