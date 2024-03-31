@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 body {
-  width: 1400px;
-}
-body {
+  max-width: 1400px;
+  margin-inline: auto;
   left: 147px;
+  /* width: auto; */
 }
+
 .navig {
   background: #1c1c1c 0% 0% no-repeat padding-box;
   opacity: 1;
@@ -76,8 +77,8 @@ nav .navLogo {
   align-items: center;
   gap: 90px;
   left: 0px;
-  width: 1400px;
-  height: 639px;
+  max-width: 1400px;
+  min-height: 639px;
   background-size: cover;
   background-color: rgba(28, 28, 28, 1);
   background-repeat: no-repeat;
@@ -177,67 +178,75 @@ span {
 /* .formAlign {
   padding-left: 50px;
 } */
-input.formAlign {
-  margin-left: 20px;
-  width: 17rem;
-  display: block;
-  align-items: center;
-  padding: 10px 0;
-  margin-left: 40px;
-  border-style: none;
-  border-bottom: 1px solid rgb(230, 226, 226);
-}
-label.formAlign {
-  margin-left: 20px;
-  text-align: left;
-  font: normal normal normal 12px/24px Montserrat;
-  letter-spacing: 0px;
-  color: rgb(243, 236, 236);
-  opacity: 1;
-}
+.jsForm {
+  input.formAlign {
+    margin-left: 20px;
+    width: 17rem;
+    display: block;
+    align-items: center;
+    padding: 10px 0;
+    margin-left: 40px;
+    border-style: none;
+    border-bottom: 1px solid rgb(230, 226, 226);
+  }
+  label.formAlign {
+    margin-left: 20px;
+    text-align: left;
+    font: normal normal normal 12px/24px Montserrat;
+    letter-spacing: 0px;
+    color: rgb(243, 236, 236);
+    opacity: 1;
+  }
 
-.typeOfSubscribtion {
-  top: 425px;
-  left: 943px;
-  /* width: 167px; */
-  height: 19px;
-  font: normal normal 600 16px/24px Montserrat;
-  letter-spacing: 0px;
-  color: rgba(28, 28, 28, 1);
-  opacity: 1;
-  display: flex;
-  align-items: left;
-  margin-left: 40px;
+  .typeOfSubscribtion {
+    top: 425px;
+    /* left: 943px; */
+    /* width: 167px; */
+    /* height: 19px; */
+    font: normal normal 600 16px/24px Montserrat;
+    letter-spacing: 0px;
+    color: rgba(28, 28, 28, 1);
+    opacity: 1;
+    /* display: flex; */
+    /* align-items: left; */
+    margin-left: 40px;
+    /* justify-content: space-between; */
+  }
 
-  /* justify-content: center; */
-}
-.radioPush {
-  display: inline-block;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-.getStarted {
-  background-color: rgba(65, 211, 149, 1);
-  /* margin-bottom: 0; */
-  top: 515px;
-  left: 892px;
-  width: 360px;
-  height: 57px;
-  background: rgba(65, 211, 149, 1) 0% 0% no-repeat padding-box;
-  border-radius: 0px 0px 5px 5px;
-  opacity: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
+  .radioPush {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-right: 20px;
+  }
+  .monthly {
+    margin-left: 40px;
+    margin-bottom: 10px;
+    display: inline;
+    justify-content: space-between;
+  }
+  .getStarted {
+    background-color: rgba(65, 211, 149, 1);
+    margin-bottom: 0;
+    top: 515px;
+    left: 892px;
+    width: 360px;
+    height: 57px;
+    background: rgba(65, 211, 149, 1) 0% 0% no-repeat padding-box;
+    border-radius: 0px 0px 5px 5px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
 }
 .socMedia {
   top: 711px;
   left: 0px;
   width: 1400px;
   height: 105px;
-
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0px 1px 3px #00000061;
   opacity: 1;
@@ -247,9 +256,6 @@ label.formAlign {
   left: 0px;
   width: 1400px;
   height: 595px;
-
-  /* UI Properties */
-
   background: transparent linear-gradient(270deg, #6696e2 0%, #e27866 100%) 0%
     0% no-repeat padding-box;
   opacity: 0.42;
@@ -259,20 +265,14 @@ label.formAlign {
   left: 0px;
   width: 1400px;
   height: 596px;
-
   background: #1c1c1c 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 .whyAwesome {
-  /* Layout Properties */
-
   top: 2007px;
   left: 0px;
   width: 1400px;
   height: 592px;
-
-  /* UI Properties */
-
   background: #ffffff 0% 0% no-repeat padding-box;
   opacity: 1;
 }
@@ -281,7 +281,6 @@ label.formAlign {
   left: 0px;
   width: 1400px;
   height: 883px;
-
   background: #6696e2 0% 0% no-repeat padding-box;
   opacity: 1;
 }
@@ -290,7 +289,6 @@ label.formAlign {
   left: 0px;
   width: 1400px;
   height: 591px;
-
   background: #ffffff 0% 0% no-repeat padding-box;
   opacity: 1;
 }
@@ -299,20 +297,14 @@ label.formAlign {
   left: 0px;
   width: 1400px;
   height: 573px;
-
   background: #e27866 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 footer {
-  /* Layout Properties */
-
   top: 4646px;
   left: 0px;
   width: 1400px;
   height: 124px;
-
-  /* UI Properties */
-
   background: #1c1c1c 0% 0% no-repeat padding-box;
   opacity: 1;
 }
