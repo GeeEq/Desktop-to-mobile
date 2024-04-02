@@ -595,6 +595,25 @@ span {
       width: 64px;
       height: 2px;
     }
+    p {
+      font: normal normal normal 14px/20px Montserrat;
+      letter-spacing: 0px;
+      color: #ffffff;
+      opacity: 1;
+      text-align: center;
+    }
+  }
+  .pricingWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .pricingBox {
+      box-sizing: border-box;
+      border: 1px solid black;
+      width: 343px;
+      height: 500px;
+      text-align: center;
+    }
   }
 }
 .reviews {
