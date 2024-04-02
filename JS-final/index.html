@@ -142,28 +142,42 @@
       </div>
       <div class="about" id="about">
         <div class="softTabs">
-          <div class="register">
-            <div class="picture"><p>REGISTER</p></div>
-            <p class="softText">
-              Tabs with soft transitioning effect. Explained propriety of out
-              perpetual his you.
-            </p>
-          </div>
-          <div class="apply">
-            <div class="picture"><p>APPLY</p></div>
-            <p class="softText">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-              euismod bibendum laoreet. Proin gravida dolor sit amet lacus
-              accumsan et viverra justo commodo. Proin sodales pulvinar tempor.
-              Cum sociis natoque penatibus et magnis dis parturient montes.
-            </p>
-          </div>
-          <div class="receive">
-            <div class="picture"><p>RECEIVE</p></div>
-            <p class="softText">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-              euismod bibendum laoreet.
-            </p>
+          <div class="softBox">
+            <div class="btnBox">
+              <div class="register">
+                <button class="picture" data-tab-target="#registerText">
+                  <p>REGISTER</p>
+                </button>
+              </div>
+              <div class="apply">
+                <button class="picture" data-tab-target="#applyText">
+                  <p>APPLY</p>
+                </button>
+              </div>
+              <div class="receive">
+                <button class="picture" data-tab-target="#receiveText">
+                  <p>RECEIVE</p>
+                </button>
+              </div>
+            </div>
+
+            <div class="softTabContent">
+              <p class="softText" id="registerText" data-tab-content>
+                Tabs with soft transitioning effect. Explained propriety of out
+                perpetual his you.
+              </p>
+              <p class="softText" id="applyText" data-tab-content>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                accumsan et viverra justo commodo. Proin sodales pulvinar
+                tempor. Cum sociis natoque penatibus et magnis dis parturient
+                montes.
+              </p>
+              <p class="softText" id="receiveText" data-tab-content>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                euismod bibendum laoreet.
+              </p>
+            </div>
           </div>
         </div>
         <div class="imgTabs">
@@ -243,7 +257,30 @@
           </div>
         </div>
       </div>
-      <div class="whyAwesome"></div>
+      <div class="whyAwesome">
+        <div class="whyHeader">
+          <h3>WHY THIS IS AWESOME</h3>
+          <hr />
+          <p class="whyText">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="cardsContainer">
+          <img src="" alt="" class="thDesign" />
+          <h3>Thouthful Design</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="cardsContainer">
+          <img src="" alt="" class="thDesign" />
+          <h3>Well Crafted</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="cardsContainer">
+          <img src="" alt="" class="thDesign" />
+          <h3>Easy to Customize</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
       <div class="pricing" id="pricing"></div>
       <div class="reviews" id="reviews"></div>
       <div class="contacts" id="contacts"></div>
