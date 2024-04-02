@@ -539,7 +539,7 @@ span {
     .cardContainer {
       width: 286px;
       height: 194px;
-      margin-top: 50px;
+      margin-top: 80px;
       .imgBox {
         box-sizing: border-box;
         border: 1px solid #e27866;
@@ -570,13 +570,32 @@ span {
     }
   }
 }
-.pricingTab {
+.pricing {
   top: 2599px;
   left: 0px;
   width: 1400px;
   height: 883px;
   background: #6696e2 0% 0% no-repeat padding-box;
   opacity: 1;
+
+  .pricingHeader {
+    h3 {
+      padding-top: 97px;
+      text-align: center;
+      font: normal normal 600 36px/43px Montserrat;
+      letter-spacing: 0px;
+      color: #ffffff;
+      opacity: 1;
+    }
+    hr {
+      /* background: transparent url("img/divider_orange_u7 copy.png") 0% 0%
+        no-repeat padding-box; */
+      /* opacity: 1; */
+      color: #41d395;
+      width: 64px;
+      height: 2px;
+    }
+  }
 }
 .reviews {
   top: 3482px;
