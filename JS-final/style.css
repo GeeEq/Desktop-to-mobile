@@ -603,16 +603,101 @@ span {
       text-align: center;
     }
   }
+
   .pricingWrapper {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    margin-left: 146px;
+    margin-right: 145px;
+
+    .pricingBox:hover {
+      .greenLine:hover {
+        height: 40px;
+        background-color: #41d395;
+      }
+    }
+
     .pricingBox {
       box-sizing: border-box;
-      border: 1px solid black;
       width: 343px;
       height: 500px;
       text-align: center;
+      border-radius: 10px;
+      margin-top: 40px;
+
+      .price {
+        background-color: #1c1c1c;
+        padding-top: 3px;
+        padding-bottom: 5px;
+        border-radius: 10px 10px 0 0;
+
+        h4 {
+          text-align: center;
+          font: normal normal normal 20px/24px Montserrat;
+          letter-spacing: 0px;
+          color: #ffffff;
+          opacity: 1;
+          padding-bottom: 20px;
+        }
+        h2 {
+          color: white;
+          font: normal normal normal 24px Montserrat;
+
+          span {
+            text-align: center;
+            font: normal normal normal 94px/24px Montserrat;
+            letter-spacing: 0px;
+            color: #ffffff;
+            opacity: 1;
+          }
+        }
+        p {
+          text-align: center;
+          font: normal normal normal 14px/24px Montserrat;
+          letter-spacing: 0px;
+          color: #ffffff;
+          opacity: 0.5;
+        }
+      }
+      .greenLine {
+        background-color: #41d395;
+        height: 6px;
+        padding-top: 0;
+        margin-top: 0;
+        padding-top: 15px;
+        text-align: center;
+        font: normal normal normal 14px/24px Montserrat;
+        letter-spacing: 0px;
+        color: #ffffff;
+        opacity: 1;
+        position: relative;
+      }
+
+      .dataContent {
+        background-color: white;
+        margin-top: 0;
+        padding-top: 0;
+        height: 240px;
+        border-radius: 0 0 10px 10px;
+        padding-bottom: 20px;
+
+        p:nth-child(1) {
+          padding-top: 0;
+          margin-top: -19px;
+          padding-top: 30px;
+        }
+        p {
+          text-align: center;
+          font: normal normal normal 14px/24px Montserrat;
+          letter-spacing: 0px;
+          color: #86878b;
+          opacity: 1;
+        }
+        p:last-child() {
+          padding-bottom: 10ox;
+        }
+      }
     }
   }
 }
@@ -623,6 +708,43 @@ span {
   height: 591px;
   background: #ffffff 0% 0% no-repeat padding-box;
   opacity: 1;
+  h3 {
+    text-align: center;
+    font: normal normal 600 36px/43px Montserrat;
+    letter-spacing: 0px;
+    color: #1c1c1c;
+    opacity: 1;
+  }
+  hr {
+    width: 64px;
+    height: 2px;
+    color: #6696e2;
+  }
+  .slide-container {
+    .cardContainer {
+      .cardContent {
+        box-sizing: border-box;
+        img {
+          position: absolute;
+          width: 273px;
+          height: 147px;
+        }
+        p {
+          width: 230px;
+          height: 107px;
+          text-align: left;
+          font: normal normal normal 16px/22px Montserrat;
+          letter-spacing: 0px;
+          color: #ffffff;
+          opacity: 1;
+          position: relative;
+          top: 0;
+          padding-top: 20px;
+          padding-left: 20px;
+        }
+      }
+    }
+  }
 }
 .contacts {
   top: 4073px;
