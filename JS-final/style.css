@@ -786,12 +786,47 @@ span {
   }
 }
 .contacts {
-  top: 4073px;
+  /* top: 4073px; */
   left: 0px;
   width: 1400px;
   height: 573px;
   background: #e27866 0% 0% no-repeat padding-box;
   opacity: 1;
+  /* margin-top: 70px; */
+
+  .contactsWrapper {
+    margin-top: 70px;
+
+    .contactsText {
+      h2 {
+        padding-top: 70px;
+
+        /* margin: 0;
+        padding: 0; */
+
+        text-align: center;
+        font: normal normal 600 36px/43px Montserrat;
+        letter-spacing: 0px;
+        color: #ffffff;
+        opacity: 1;
+      }
+      p {
+        text-align: center;
+        font: normal normal normal 14px/20px Montserrat;
+        letter-spacing: 0px;
+        color: #ffffff;
+        opacity: 1;
+      }
+    }
+  }
+  .container {
+    width: 390px;
+    height: 314px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 6px #00000029;
+    border-radius: 5px;
+    opacity: 1;
+  }
 }
 footer {
   top: 4646px;

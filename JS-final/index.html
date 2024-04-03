@@ -528,7 +528,54 @@
           </div>
         </section>
       </div>
-      <div class="contacts" id="contacts"></div>
+      <div class="contacts" id="contacts">
+        <div class="contactsWrapper">
+          <div class="contactsText">
+            <h2>CONTACT US</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div class="container">
+            <form name="custom_form">
+              <div class="form_box">
+                <div class="input-row">
+                  <input
+                    type="text"
+                    placeholder="First Name*"
+                    name="first name"
+                    class="firstName"
+                  />
+                  <span class="error">Please enter Your first name</span>
+                </div>
+                <div class="input-row">
+                  <input
+                    type="text"
+                    placeholder="Last Name*"
+                    name="name"
+                    class="lastName"
+                  />
+                  <span class="error">Please enter Your last name</span>
+                </div>
+                <div class="input-row">
+                  <input
+                    type="text"
+                    placeholder="Phone Number*"
+                    name="phone number"
+                    class="phoneNumber"
+                  />
+                  <span class="error">Please enter Your phone number</span>
+                </div>
+                <div class="radioBtns">
+                  <input type="radio" name="Personal" id="radioBtn" />
+                  <label for="radioBtn">PERSONAL</label>
+                  <input type="radio" name="Company" id="radioBtn" />
+                  <label for="radioBtn">COMPANY</label>
+                </div>
+                <input type="submit" value="SEND" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </main>
     <footer></footer>
     <script src="./assets/swiper-bundle.min.js"></script>
