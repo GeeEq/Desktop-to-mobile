@@ -721,7 +721,16 @@ span {
     color: #6696e2;
   }
   .slide-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+
     .cardContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
       .cardContent {
         box-sizing: border-box;
         img {
@@ -739,9 +748,37 @@ span {
           opacity: 1;
           position: relative;
           top: 0;
-          padding-top: 20px;
+          /* padding-top: 20px; */
+          margin-bottom: 30px;
           padding-left: 20px;
         }
+      }
+    }
+    .userDetail {
+      display: flex;
+      justify-content: center;
+      align-items: left;
+      gap: 20px;
+      height: 79px;
+      margin-top: 20px;
+      img {
+        width: 70px;
+        height: 70px;
+      }
+      h4 {
+        text-align: left;
+        font: normal normal normal 20px/24px Montserrat;
+        letter-spacing: 0px;
+        color: #333333;
+        opacity: 1;
+        margin: 0;
+      }
+      p {
+        text-align: left;
+        font: normal normal normal 14px/17px Montserrat;
+        letter-spacing: 0px;
+        color: #86878b;
+        opacity: 1;
       }
     }
   }
