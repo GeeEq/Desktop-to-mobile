@@ -14,3 +14,13 @@ tabs.forEach((tab) => {
     target.classList.add(`active`);
   });
 });
+
+// swiper
+let swiper = new Swiper(".card-content", {
+  slidesPerView: 3,
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});

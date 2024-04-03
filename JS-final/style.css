@@ -502,6 +502,7 @@ span {
 
   .whyHeader {
     margin-top: 98px;
+    margin-bottom: 12px;
     h3 {
       text-align: center;
       font: normal normal 600 36px/43px Montserrat;
@@ -514,9 +515,14 @@ span {
         no-repeat padding-box;
       opacity: 1;
       color: #e27866;
+      background-color: #e27866;
       top: 2171px;
       left: 669px;
       width: 64px;
+      height: 2px;
+      margin-bottom: 40px;
+      box-sizing: border-box;
+      border: none;
     }
     .whyText {
       text-align: center;
@@ -588,12 +594,11 @@ span {
       opacity: 1;
     }
     hr {
-      /* background: transparent url("img/divider_orange_u7 copy.png") 0% 0%
-        no-repeat padding-box; */
-      /* opacity: 1; */
+      background-color: #41d395;
       color: #41d395;
       width: 64px;
       height: 2px;
+      border: none;
     }
     p {
       font: normal normal normal 14px/20px Montserrat;
@@ -694,9 +699,6 @@ span {
           color: #86878b;
           opacity: 1;
         }
-        p:last-child() {
-          padding-bottom: 10ox;
-        }
       }
     }
   }
@@ -714,71 +716,71 @@ span {
     letter-spacing: 0px;
     color: #1c1c1c;
     opacity: 1;
+    margin-top: 90px;
   }
   hr {
     width: 64px;
     height: 2px;
     color: #6696e2;
-  }
-  .slide-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    background-color: #6696e2;
+    border: none;
     margin-top: 80px;
-
-    .cardContainer {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      .cardContent {
-        box-sizing: border-box;
-        img {
-          position: absolute;
-          width: 273px;
-          height: 147px;
-        }
-        p {
-          width: 230px;
-          height: 107px;
-          text-align: left;
-          font: normal normal normal 16px/22px Montserrat;
-          letter-spacing: 0px;
-          color: #ffffff;
-          opacity: 1;
-          position: relative;
-          top: 0;
-          /* padding-top: 20px; */
-          margin-bottom: 30px;
-          padding-left: 20px;
-        }
+  }
+  .cardContainer {
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    margin-top: 80px;
+    .cardContent {
+      width: 273px;
+      img {
+        position: absolute;
+      }
+      p {
+        padding-left: 20px;
+        padding-right: 20px;
+        color: left;
+        font: normal normal normal 16px/22px Montserrat;
+        letter-spacing: 0px;
+        color: #ffffff;
+        opacity: 1;
+        position: relative;
       }
     }
     .userDetail {
       display: flex;
-      justify-content: center;
-      align-items: left;
-      gap: 20px;
-      height: 79px;
-      margin-top: 20px;
+      /* justify-content: center; */
+      align-items: center;
       img {
         width: 70px;
         height: 70px;
       }
-      h4 {
-        text-align: left;
-        font: normal normal normal 20px/24px Montserrat;
-        letter-spacing: 0px;
-        color: #333333;
-        opacity: 1;
-        margin: 0;
-      }
-      p {
-        text-align: left;
-        font: normal normal normal 14px/17px Montserrat;
-        letter-spacing: 0px;
-        color: #86878b;
-        opacity: 1;
+      span {
+        margin-left: 20px;
+        display: flex;
+        justify-content: center;
+        /* align-items: left; */
+        flex-direction: column;
+
+        h4 {
+          text-align: left;
+          font: normal normal normal 20px/24px Montserrat;
+          letter-spacing: 0px;
+          color: #333333;
+          opacity: 1;
+          margin-bottom: 0;
+        }
+        p {
+          text-align: left;
+          font: normal normal normal 14px/17px Montserrat;
+          letter-spacing: 0px;
+          color: #86878b;
+          opacity: 1;
+        }
       }
     }
   }
