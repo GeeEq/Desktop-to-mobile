@@ -130,15 +130,6 @@
             <img src="./assets/instagram-logo.svg" alt="facebook-logo" />
             <img src="./assets/twitter.svg" alt="facebook-logo" />
             <img src="./assets/pinterest.svg" alt="facebook-logo" />
-            <!-- <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 640 512"
-              class="wifi-img"
-            >
-              <path
-                d="M54.2 202.9C123.2 136.7 216.8 96 320 96s196.8 40.7 265.8 106.9c12.8 12.2 33 11.8 45.2-.9s11.8-33-.9-45.2C549.7 79.5 440.4 32 320 32S90.3 79.5 9.8 156.7C-2.9 169-3.3 189.2 8.9 202s32.5 13.2 45.2 .9zM320 256c56.8 0 108.6 21.1 148.2 56c13.3 11.7 33.5 10.4 45.2-2.8s10.4-33.5-2.8-45.2C459.8 219.2 393 192 320 192s-139.8 27.2-190.5 72c-13.3 11.7-14.5 31.9-2.8 45.2s31.9 14.5 45.2 2.8c39.5-34.9 91.3-56 148.2-56zm64 160a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z"
-              />
-            </svg> -->
           </div>
         </div>
       </div>
@@ -534,7 +525,7 @@
             <h2>CONTACT US</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
-          <div class="container">
+          <!-- <div class="container">
             <form name="custom_form">
               <div class="form_box">
                 <div class="input-row">
@@ -573,11 +564,69 @@
                 <input type="submit" value="SEND" />
               </div>
             </form>
+          </div> -->
+          <div class="contactForm">
+            <form class="details">
+              <label for="firstName" class="formAlign"></label><br />
+              <input
+                type="text"
+                id="firstName"
+                class="formAlign"
+                name="firstName"
+                placeholder="First Name:"
+              />
+              <label for="lastName" class="formAlign"></label><br />
+              <input
+                type="lastName"
+                id="lastName"
+                class="formAlign"
+                name="lastName"
+                placeholder="Last Name:"
+              />
+              <label for="phoneNumber" class="formAlign"></label><br />
+              <input
+                type="phoneNumber"
+                id="phoneNumber"
+                class="formAlign"
+                name="phoneNumber"
+                placeholder="Phone Number:"
+              />
+              <form class="radioPush">
+                <input
+                  type="radio"
+                  id="monthly"
+                  name="monthly"
+                  value="monthly"
+                  class="monthly"
+                />
+                <label for="html">MONTHLY</label>
+                <input
+                  type="radio"
+                  id="yearly"
+                  name="yearly"
+                  value="yearly"
+                  class="yearly"
+                />
+                <label for="css">YEARLY</label><br />
+              </form>
+              <form>
+                <input type="submit" class="send" value="SEND" />
+              </form>
+              <!-- <h3 class="getStarted">GET STARTED</h3> -->
+            </form>
           </div>
         </div>
       </div>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footerIcons">
+        <img src="./assets/facebook-logo.svg" alt="facebook-logo" />
+        <img src="./assets/instagram-logo.svg" alt="facebook-logo" />
+        <img src="./assets/twitter.svg" alt="facebook-logo" />
+        <img src="./assets/pinterest.svg" alt="facebook-logo" />
+      </div>
+      <p>© 2019 Cheshire County</p>
+    </footer>
     <script src="./assets/swiper-bundle.min.js"></script>
     <script src="./script.js"></script>
   </body>
