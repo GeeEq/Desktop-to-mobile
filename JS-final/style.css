@@ -121,6 +121,10 @@ hr.line {
   background-color: transparent;
   color: white;
 }
+.btn:hover {
+  background-color: white;
+  color: #86878b;
+}
 .jsForm {
   top: 147px;
   left: 892px;
