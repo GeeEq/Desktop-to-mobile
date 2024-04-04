@@ -328,7 +328,7 @@ span {
     opacity: 1;
     width: 509px;
   }
-  .tab.active {
+  .tab .active {
     background-color: #e27866;
   }
   .picture:hover {
