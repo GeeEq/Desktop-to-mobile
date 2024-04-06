@@ -24,3 +24,39 @@ let swiper = new Swiper(".card-content", {
     clickable: true,
   },
 });
+
+//-------------JS form
+
+document.addEventListener("DOMContentLoaded", () => {
+  const form = document.querySelector(".jsForm");
+
+  form.addEventListener("submit", (event) => {
+    let isValid = true;
+
+    document.querySelectorAll(".jsForm input[required]").forEach((input) => {
+      if (!input.ariaValueMax.trim()) {
+        isValid = false;
+
+        if (
+          !InputEvent.nextElementSibling ||
+          !input.nextElementSibling.classList.contains("errorMessage")
+        ) {
+          const error = document.createElement("div");
+          error.textContent = "Missing information";
+          error.className = "errorMessage";
+          input.parentNode.insertBefore(error, input.mextSibling);
+        }
+      } else {
+        if (
+          input.nextElementSibling &&
+          input.nextElementSibling.classList.contains("errorMessage")
+        ) {
+          input.nextElementSibling.remove();
+        }
+      }
+    });
+    if (!isValid) {
+      event.preventDefault();
+    }
+  });
+});

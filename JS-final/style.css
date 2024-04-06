@@ -3,26 +3,30 @@ body {
   max-width: 1400px;
   margin-inline: auto;
   left: 147px;
+  margin-top: 0;
 }
 
 .navig {
   background: #1c1c1c 0% 0% no-repeat padding-box;
   display: flex;
-  align-items: center;
+  /* align-items: right; */
   justify-content: space-between;
-  padding-right: 50px;
+  /* padding-right: -250px; */
   max-width: 1400px;
   height: 72px;
 }
+.sideBar {
+  display: none;
+}
 .nav_menu {
-  float: right;
-  gap: 20px;
+  /* float: right; */
+  gap: 44px;
   font-size: 18px;
   color: white;
   list-style: none;
   display: flex;
-  justify-content: space-between;
-  margin-right: 148px;
+  justify-content: space-around;
+  margin-right: -248px;
 }
 .nav_menu a {
   color: white;
@@ -30,7 +34,8 @@ body {
   letter-spacing: 0px;
 }
 #nav_link {
-  transition: all 0.6s ease;
+  transition: all 0.9s ease;
+  text-align: right;
 }
 .nav_menu a:hover {
   border-bottom: #e27866;
@@ -856,5 +861,65 @@ footer {
     color: #ffffff;
     opacity: 0.5;
     margin-right: 136px;
+  }
+}
+
+@media (max-width: 900px) {
+  body {
+    max-width: fit-content;
+    margin: 0;
+    padding: 0;
+  }
+  .navMenu {
+    display: none;
+  }
+  .sideBar {
+    display: initial;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    right: 0;
+    padding-top: 18px;
+    /* padding-top: 80px; */
+    height: 100%;
+    width: 250px;
+    z-index: 999;
+    background-color: #1c1c1c;
+    /* padding-top: 20px; */
+    opacity: 0.9;
+    padding: 0;
+    box-shadow: -10px 0 10px #000000;
+    border-radius: 10px 0;
+
+    li {
+      list-style: none;
+      /* margin-bottom: 20px; */
+      width: 100%;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      /* display: flex; */
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+
+      a {
+        color: white;
+        text-decoration: none;
+        opacity: 1;
+        position: relative;
+        margin: 0;
+        padding: 10px 20px;
+        width: 100%;
+      }
+    }
+    svg {
+      /* text-align: right; */
+    }
+    li:hover {
+      background-color: #333333;
+    }
+  }
+  .sideBar li a:nth-last-of-type(svg) {
+    display: initial;
   }
 }

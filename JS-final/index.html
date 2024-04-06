@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width= <device-width>, initial-scale=1.0" />
+    <meta name="viewport" content="width= device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,7 +19,7 @@
       <nav class="navig">
         <div class="navLogo"></div>
 
-        <div class="navMenu">
+        <div class="navMenu" id="menu">
           <ul class="nav_menu" id="nav_menu">
             <li>
               <a href="#features" id="nav_link">Features</a>
@@ -38,9 +38,46 @@
             </li>
           </ul>
         </div>
-        <!-- <div class="burgerMenu" id="burgerMenu">
-          <i class="ri-menu-line"></i>
-        </div> -->
+        <div class="burgerMenu" id="burgerMenu">
+          <ul class="sideBar" id="sideBar">
+            <li>
+              <a href="#features" id="nav_link">Features</a>
+            </li>
+            <li>
+              <a href="#about" id="nav_link">About</a>
+            </li>
+            <li>
+              <a href="#pricing" id="nav_link">Pricing</a>
+            </li>
+            <li>
+              <a href="#reviews" id="nav_link">Reviews</a>
+            </li>
+            <li>
+              <a href="#contacts" id="nav_link">Contacts</a>
+            </li>
+          </ul>
+          <ul class="burger">
+            <li>
+              <a href="#">
+                <li>
+                  <a href="#"
+                    ><svg
+                      class="svg"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
+                      viewBox="0 -960 960 960"
+                      width="24"
+                      fill="white"
+                    >
+                      <path
+                        d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+                      />
+                    </svg>
+                  </a></li
+              ></a>
+            </li>
+          </ul>
+        </div>
       </nav>
       <div class="features" id="features">
         <div class="descriptionBlock">
