@@ -866,16 +866,23 @@ footer {
 
 @media (max-width: 1000px) {
   body {
-    max-width: fit-content;
+    /* max-width: fit-content; */
     margin: 0;
     padding: 0;
+    margin-left: -100px;
+  }
+  .navig {
+    background: #1c1c1c 0% 0% no-repeat padding-box;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    height: 100px;
   }
   .navMenu {
     display: none;
   }
   .sideBar {
     display: flex;
-    justify-content: top;
     align-items: center;
     flex-direction: column;
     position: fixed;
@@ -926,13 +933,109 @@ footer {
   }
   nav .navLogo {
     background-image: url(./assets/cheshire-county-hygiene-services.svg);
-    /* top: 20px; */
-    /* left: 147px; */
     width: 119px;
     height: 60px;
     background-repeat: no-repeat;
     margin-left: 147px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .features {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0px;
+    /* height: 500px; */
+    /* gap: 90px; */
+    left: 0px;
+    padding-right: 165px;
+    /* margin-top: 30px; */
+    background-size: cover;
+    background-color: rgba(28, 28, 28, 1);
+    background-repeat: no-repeat;
+    height: 1000px;
+    /* padding-bottom: 90px; */
+  }
+  .descriptionBlock {
+    /* margin: 0;
+    padding: 0; */
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 10px;
+  }
+  .features::before {
+    content: "";
+    background-image: url(./assets/cityview2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.63;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    /* width: 1400px; */
+    height: 1000px;
+    opacity: 0.59;
+    /* margin-right: -90px; */
+  }
+  .jsForm {
+    /* top: 147px;
+    left: 892px; */
+    width: 360px;
+    height: 425px;
+    margin-right: 0px;
+    margin-left: 240px;
+    /* padding-top: 30px; */
+    background: rgba(255, 255, 255, 1) padding-box;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.16);
+    opacity: 5;
+    z-index: 1;
+    /* position: fixed; */
+  }
+  .socMedia {
+    .socWrapper {
+      /* top: 711px;
+      left: 0px; */
+      /* max-width: 1400px; */
+      height: 190px;
+      background: #ffffff 0% 0% no-repeat padding-box;
+      box-shadow: 0px 1px 3px #00000061;
+      opacity: 1;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      padding-left: 147px;
+    }
+    h3 {
+      text-align: center;
+    }
+  }
+  .about::before {
+    content: "";
+    background-image: url(./assets/christoffer-engstrom-503481-unsplash@2x.png);
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    width: 900px;
+    height: 800px;
+    /* margin-bottom: 190px; */
+  }
+  .about {
+    top: 816px;
+    left: 0px;
+    width: 850px;
+    height: 800px;
+    background: transparent linear-gradient(270deg, #6696e2 0%, #e27866 100%) 0%
+      0% no-repeat padding-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5em;
   }
 }
