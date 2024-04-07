@@ -1023,19 +1023,44 @@ footer {
     background-position: center;
     background-size: cover;
     width: 900px;
-    height: 800px;
-    /* margin-bottom: 190px; */
+    height: 1300px;
   }
   .about {
-    top: 816px;
     left: 0px;
-    width: 850px;
-    height: 800px;
+    width: 900px;
+    height: 1300px;
     background: transparent linear-gradient(270deg, #6696e2 0%, #e27866 100%) 0%
       0% no-repeat padding-box;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    gap: 5em;
+    justify-content: space-evenly;
+  }
+  .softTabs {
+    max-width: 400px;
+    padding-top: 220px;
+    padding-bottom: -140px;
+  }
+  .softTabContent {
+    p {
+      max-width: 600px;
+    }
+  }
+  .imgTabs {
+    width: 900px;
+  }
+  .lettuce,
+  .salad {
+    width: 300px;
+    height: 300px;
+    display: grid;
+  }
+  .lettuce {
+    margin-left: -12opx;
+  }
+  .imgWrap {
+  }
+  .stairs {
+    width: 500px;
+    margin-left: -60px;
   }
 }
