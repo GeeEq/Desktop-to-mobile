@@ -946,25 +946,21 @@ footer {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    text-align: center;
     gap: 0px;
-    /* height: 500px; */
-    /* gap: 90px; */
     left: 0px;
     padding-right: 165px;
-    /* margin-top: 30px; */
     background-size: cover;
     background-color: rgba(28, 28, 28, 1);
     background-repeat: no-repeat;
     height: 1000px;
-    /* padding-bottom: 90px; */
   }
   .descriptionBlock {
-    /* margin: 0;
-    padding: 0; */
     padding-top: 30px;
     padding-right: 30px;
     padding-left: 10px;
   }
+
   .features::before {
     content: "";
     background-image: url(./assets/cityview2.png);
@@ -974,10 +970,8 @@ footer {
     position: absolute;
     background-position: center;
     background-size: cover;
-    /* width: 1400px; */
     height: 1000px;
     opacity: 0.59;
-    /* margin-right: -90px; */
   }
   .jsForm {
     /* top: 147px;
@@ -1023,12 +1017,12 @@ footer {
     background-position: center;
     background-size: cover;
     width: 900px;
-    height: 1300px;
+    height: 1400px;
   }
   .about {
     left: 0px;
     width: 900px;
-    height: 1300px;
+    height: 1400px;
     background: transparent linear-gradient(270deg, #6696e2 0%, #e27866 100%) 0%
       0% no-repeat padding-box;
     display: flex;
@@ -1037,8 +1031,7 @@ footer {
   }
   .softTabs {
     max-width: 400px;
-    padding-top: 220px;
-    padding-bottom: -140px;
+    padding-top: 120px;
   }
   .softTabContent {
     p {
@@ -1053,14 +1046,145 @@ footer {
     width: 300px;
     height: 300px;
     display: grid;
+    margin-left: 280px;
   }
   .lettuce {
-    margin-left: -12opx;
+    margin-left: 140px;
   }
   .imgWrap {
   }
   .stairs {
     width: 500px;
-    margin-left: -60px;
+    margin-left: 230px;
+  }
+
+  .eratTempor {
+    margin: 0;
+    padding: 0;
+    width: 900px;
+    height: 800px;
+    background: #1c1c1c 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .imgContainer {
+    margin-right: 200px;
+    margin-top: 300px;
+    margin-bottom: -20px;
+  }
+  .textContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    hr {
+      display: none;
+    }
+    .eratMob {
+      margin-left: 200px;
+    }
+    .titleWraper {
+      display: grid;
+      grid-template-rows: 1fr 5fr;
+      margin-left: 160px;
+    }
+  }
+
+  .whyAwesome {
+    width: 900px;
+    height: 1100px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .cardBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .pricing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 2000px;
+    background: #6696e2 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  .pricingHeader {
+    margin-top: -90px;
+  }
+
+  .pricingWrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .pricingBox1 {
+    margin-bottom: 30px;
+  }
+  .reviews {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 900px;
+    height: 600px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    opacity: 1;
+    h3 {
+      padding-left: 30px;
+      margin-top: -90px;
+      margin-bottom: -30px;
+    }
+    .container {
+      width: 900px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 200px;
+    }
+  }
+
+  .contacts {
+    left: 0px;
+    width: 920px;
+    height: 700px;
+    background: #e27866 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .contactsWrapper {
+    }
+  }
+  footer {
+    width: 900px;
+    height: 150px;
+    background: #1c1c1c 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    p {
+      margin-left: 130px;
+    }
+  }
+  .footerIcons {
+    margin-top: 20px;
+    margin-right: 100px;
   }
 }
